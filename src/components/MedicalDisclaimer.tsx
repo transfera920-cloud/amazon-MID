@@ -4,9 +4,10 @@ export const MedicalDisclaimer: React.FC = () => {
   return (
     <aside
       id="medical-disclaimer"
-      className="py-12 sm:py-16 bg-[#111622] border-b border-slate-800 scroll-mt-20"
+      className="py-12 sm:py-16 bg-[#111622] border-b border-slate-800 scroll-mt-20 relative"
       aria-labelledby="heading-disclaimer"
     >
+      <span id="disclaimer" className="absolute -top-20" aria-hidden="true" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="p-6 sm:p-8 rounded-2xl bg-slate-900/90 border-2 border-amber-600/70 space-y-6 shadow-2xl">
           {/* Header */}

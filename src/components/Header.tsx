@@ -37,9 +37,9 @@ export const Header: React.FC<HeaderProps> = ({ activeSection }) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo & Textbook Brand */}
           <a
-            href="#"
+            href="https://amazon-hike.com/"
             className="flex items-center gap-3 text-slate-100 hover:text-sky-300 focus:outline-none focus:ring-2 focus:ring-sky-500 rounded-md p-1 transition-colors group"
-            aria-label="亞馬遜國家山岳協會 首頁"
+            aria-label="亞馬遜國家山岳協會"
           >
             {/* Inline SVG Mountain Association Logo */}
             <div className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-700/80 flex items-center justify-center text-sky-400 group-hover:border-sky-500/50 transition-colors shrink-0 shadow-sm">
@@ -180,7 +180,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection }) => {
                 <a href="#takeaways" onClick={() => setMobileMenuOpen(false)} className="hover:text-sky-300">
                   重點整理
                 </a>
-                <a href="#disclaimer" onClick={() => setMobileMenuOpen(false)} className="hover:text-sky-300">
+                <a href="#medical-disclaimer" onClick={() => setMobileMenuOpen(false)} className="hover:text-sky-300">
                   教材聲明
                 </a>
               </div>

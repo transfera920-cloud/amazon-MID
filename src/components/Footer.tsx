@@ -12,22 +12,26 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Col 1: Brand & Chapter Info */}
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-lg bg-sky-950/80 border border-sky-600/70 flex items-center justify-center text-sky-400">
+            <a
+              href="https://amazon-hike.com/"
+              className="inline-flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-sky-500 rounded-lg p-1 -m-1 transition-colors"
+              aria-label="亞馬遜國家山岳協會"
+            >
+              <div className="w-9 h-9 rounded-lg bg-sky-950/80 border border-sky-600/70 flex items-center justify-center text-sky-400 group-hover:border-sky-400 group-hover:bg-sky-900/50 transition-colors">
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M3 20h18L12 4 3 20z" />
                   <path d="M12 12v4m-2-2h4" />
                 </svg>
               </div>
               <div>
-                <p className="text-base font-black text-white tracking-wide">
+                <p className="text-base font-black text-white group-hover:text-sky-300 tracking-wide transition-colors">
                   亞馬遜國家山岳協會
                 </p>
                 <p className="text-xs font-mono text-sky-400">
                   Chapter 14 · Mountain Medicine
                 </p>
               </div>
-            </div>
+            </a>
 
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-md">
               本網站為亞馬遜國家山岳協會登山教育教材第十四章《高山醫學》。致力於推廣高海拔生理科學認知、早期病徵辨識與成熟撤退決策，守護每一位登山者的生命安全。
