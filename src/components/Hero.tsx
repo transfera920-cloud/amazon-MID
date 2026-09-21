@@ -34,39 +34,16 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Meta / Chapter Index info */}
-        <div className="flex flex-wrap items-center gap-2.5 mb-5">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-sky-950/80 border border-sky-800/60 text-xs font-mono font-medium text-sky-300">
-            {/* Compass / Book SVG icon */}
-            <svg className="w-3.5 h-3.5 text-sky-400" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M2 3.5A1.5 1.5 0 013.5 2h9A1.5 1.5 0 0114 3.5v9a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 12.5v-9z" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M8 2v12M2 6h12" stroke="currentColor" strokeWidth="1" strokeOpacity="0.6" />
-            </svg>
-            亞馬遜國家山岳協會 · 登山教育教材
-          </span>
-          <span className="inline-flex items-center px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700/80 text-xs font-mono text-slate-300">
-            Chapter 14 · Mountain Medicine
-          </span>
-          <span className="inline-flex items-center px-2.5 py-1 rounded-md bg-slate-900/60 border border-slate-800 text-xs text-slate-400">
-            教材版本：2026 繁體中文
-          </span>
-        </div>
-
         {/* Main Grid: Left Typography & Right Educational Altitude Profile SVG */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Left Text Column */}
           <div className="lg:col-span-7 space-y-5">
             <div className="space-y-3">
-              <div className="inline-block">
-                <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/40 px-2.5 py-1 rounded border border-sky-900/40">
-                  官方核心教材系列
-                </span>
-              </div>
               <h1
                 id="hero-title"
                 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight"
               >
-                第十四章 高山醫學
+                高山症與高山醫學
               </h1>
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl font-normal">
                 了解高海拔環境對人體的影響，學習預防、辨識與處理高山相關疾病。

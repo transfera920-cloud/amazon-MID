@@ -22,7 +22,7 @@ export const Section8DecisionMaking: React.FC = () => {
           id="heading-sec-8"
           className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-4"
         >
-          高山醫學與登山決策
+          高山症的處置與下降決策
         </h2>
 
         {/* Lead Core Mindset */}

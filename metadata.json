@@ -1,6 +1,6 @@
 {
-  "name": "第十四章 高山醫學｜亞馬遜國家山岳協會登山教育教材",
-  "description": "了解高山醫學、高海拔低氧環境生理機轉、急性高山症 AMS、高山肺水腫 HAPE、高山腦水腫 HACE 辨識與預防方法，以及隊伍登山撤退決策。亞馬遜國家山岳協會登山教育教材。",
+  "name": "高山症與高山醫學｜AMS、HAPE、HACE 辨識與預防｜亞馬遜國家山岳協會",
+  "description": "高山症是什麼、怎麼預防？介紹高海拔低氧對身體的影響、急性高山症 AMS、高山肺水腫 HAPE、高山腦水腫 HACE 的辨識與預防，以及何時該停止上升、下降。",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -46,8 +46,6 @@ export const MedicalDisclaimer: React.FC = () => {
           {/* Institutional Badge */}
           <div className="pt-2 flex items-center gap-3 text-xs text-slate-400 border-t border-slate-800">
             <span className="font-mono text-sky-400 font-bold">亞馬遜國家山岳協會</span>
-            <span>·</span>
-            <span>登山安全教育委員會 編審</span>
           </div>
         </div>
       </div>

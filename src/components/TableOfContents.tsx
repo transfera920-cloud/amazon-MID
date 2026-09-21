@@ -19,9 +19,9 @@ export const TableOfContents: React.FC = () => {
               </svg>
               <span>SYLLABUS & CURRICULUM</span>
             </div>
-            <h2 id="toc-heading" className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+            <p id="toc-heading" className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
               章節目錄導覽
-            </h2>
+            </p>
             <p className="text-sm text-slate-400 mt-1 max-w-xl">
               本章共規劃 10 個核心學習單元。點選各項目可直接平滑跳轉至對應教材內容。
             </p>
@@ -57,9 +57,9 @@ export const TableOfContents: React.FC = () => {
                   </svg>
                 </div>
 
-                <h3 className="text-base font-semibold text-slate-100 group-hover:text-white leading-snug mb-1.5">
+                <p className="text-base font-semibold text-slate-100 group-hover:text-white leading-snug mb-1.5">
                   {sec.title}
-                </h3>
+                </p>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   {sec.shortDesc}
                 </p>

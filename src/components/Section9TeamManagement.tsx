@@ -22,7 +22,7 @@ export const Section9TeamManagement: React.FC = () => {
           id="heading-sec-9"
           className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-4"
         >
-          隊伍中的高山醫學管理
+          隊伍中的高山症觀察與管理
         </h2>
 
         <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-8">

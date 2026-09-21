@@ -61,10 +61,10 @@ export default function App() {
         {/* 07 高山環境常見健康問題 */}
         <Section7CommonIssues />
 
-        {/* 08 高山醫學與登山決策 */}
+        {/* 08 高山症的處置與下降決策 */}
         <Section8DecisionMaking />
 
-        {/* 09 隊伍中的高山醫學管理 */}
+        {/* 09 隊伍中的高山症觀察與管理 */}
         <Section9TeamManagement />
 
         {/* 10 常見錯誤觀念 */}
